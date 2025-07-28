@@ -1,4 +1,5 @@
-class Solution {
+import java.util.HashMap;
+class NumberOfGoodPairs {
     public int numIdenticalPairs(int[] nums) {
         HashMap <Integer,Integer> hm =new HashMap<>();
         int count = 0;
