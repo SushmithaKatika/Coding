@@ -6,7 +6,7 @@ public class ArrayListcheckIf {
 
     public void checkIfNameExists(List<String> namedList) {
         for(String names: namedList){
-            if(names.contains("poojita")){
+            if(names.contains("poojitha")){
                 System.out.println("name exists");
                 return;
             }
